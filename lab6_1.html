@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<style>
+    h1{color:rgb(1, 1, 49)}
+    
+</style>
+<body>
+    <!-- <h1>hahahha</h1> -->
+</body>
+
+<script>
+    var a = document.createElement("div");
+    a.style.marginLeft="500px";
+
+    var a1 = document.createElement("A");
+    a1.setAttribute("href", "");
+    a1.style.textDecoration="none";
+    a1.style.padding="10px";
+    a1.style.color="rgba(7,23,36,255)";
+    a1.style.fontFamily="'Montserrat', sans-serif";
+    a1.style.fontWeight="bold";
+    var txt1 = document.createTextNode("HOME");
+    a1 .appendChild(txt1);
+    a.appendChild(a1);
+    document.body.appendChild(a);
+    
+    var a2= document.createElement("A");
+    a2.setAttribute("href", "");
+    a2.style.padding="10px";
+    a2.style.textDecoration="none";
+    a2.style.color="rgba(7,23,36,255)";
+    a2.style.fontFamily="'Montserrat', sans-serif";
+    a2.style.fontWeight="bold";
+    var txt2 = document.createTextNode("ABOUT");
+    a2.appendChild(txt2);
+    a.appendChild(a2);
+    document.body.appendChild(a);
+
+    var a3= document.createElement("A");
+    a3.setAttribute("href", "");
+    a3.style.padding="10px";
+    a3.style.textDecoration="none";
+    a3.style.color="rgba(7,23,36,255)";
+    a3.style.fontFamily="'Montserrat', sans-serif";
+    a3.style.fontWeight="bold";
+    var txt3 = document.createTextNode("CONTACT");
+    a3.appendChild(txt3);
+    a.appendChild(a3);
+    document.body.appendChild(a);
+
+    var a4= document.createElement("A");
+    a4.setAttribute("href", "");
+    a4.style.padding="10px";
+    a4.style.textDecoration="none";
+    a4.style.color="rgba(7,23,36,255)";
+    a4.style.fontFamily="'Montserrat', sans-serif";
+    a4.style.fontWeight="bold";
+    var txt4 = document.createTextNode("BOOK ONLINE");
+    a4.appendChild(txt4);
+    a.appendChild(a4);
+    document.body.appendChild(a);
+
+    var b = document.createElement("div");
+    b.style.marginTop="20px";
+    var img1 = document.createElement("img");
+    img1.src="img2.jpg";
+    img1.style.height="600px";
+    img1.style.width="100%";
+    b.appendChild(img1);
+    document.body.appendChild(b);
+
+    var d = document.createElement("div");
+    d.style.position="absolute";
+    d.style.marginTop="-195px";
+    d.style.marginLeft="380px";
+    d.style.backgroundColor="rgba(7,23,36,255)";
+    d.style.color="white";
+    d.style.fontFamily="'Montserrat', sans-serif";
+    d.style.fontWeight="bold";
+    d.style.width="200px";
+    d.style.textAlign="center";
+    var dtxt= document.createTextNode("STUNNING 6 BED HOUSE IN THE HEART OF CITY");
+    d.appendChild(dtxt);
+    document.body.appendChild(d);
+
+    var e = document.createElement("div");
+    e.style.position="absolute";
+    e.style.marginTop="-138px";
+    e.style.marginLeft="380px";
+    e.style.backgroundColor="rgba(7,23,36,255)";
+    e.style.color="white";
+    e.style.fontFamily="'Montserrat', sans-serif";
+    e.style.width="200px";
+    e.style.textAlign="center";
+    var etxt = document.createTextNode("Ideal apartments located in a serene and picturesque neighbourhood along with great view of the city from its balcony, well-furnished and greatly maintained.")
+    var eline = document.createElement("hr");
+    eline.style.color="white";
+    var ebutton = document.createElement("button");
+    ebutton.textContent="VIEW MORE";
+    ebutton.style.fontFamily="'Montserrat', sans-serif";
+    ebutton.style.fontWeight="bold";
+    ebutton.style.marginBottom="10px";
+    e.appendChild(etxt);
+    e.appendChild(eline);
+    e.appendChild(ebutton);
+    document.body.appendChild(e);
+
+    var f = document.createElement("table");
+    f.style.marginTop="100px";
+    f.style.marginLeft="340px";
+
+    var header = document.createElement("div");
+    header.style.fontFamily="'Montserrat', sans-serif";
+    header.style.fontWeight="bold";
+    header.style.marginLeft="500px";
+    header.style.marginBottom="-85px";
+    header.style.marginTop="100px";
+    var headertxt= document.createElement("h3");
+    headertxt.textContent="LATEST PROPERTIES FOR SALE";
+    headertxt.color="rgba(7,23,36,255)";
+    header.appendChild(headertxt);
+    document.body.appendChild(header);
+
+    //row1 
+    var row1= document.createElement("tr");
+    var row1a= document.createElement("td");
+    var row1aimg= document.createElement("img");
+    row1aimg.src="tableimg4.jpg";
+    row1aimg.style.width="200px";
+    row1aimg.style.height="200px";
+    var row1b= document.createElement("td");
+    var row1bimg= document.createElement("img");
+    row1bimg.src="tableimg2.jpg";
+    row1bimg.style.width="200px";
+    row1bimg.style.height="200px";
+    var row1c= document.createElement("td");
+    var row1cimg= document.createElement("img");
+    row1cimg.src="tableimg3.jpg";
+    row1cimg.style.width="200px";
+    row1cimg.style.height="200px";
+    
+    row1a.appendChild(row1aimg);
+    row1b.appendChild(row1bimg);
+    row1c.appendChild(row1cimg);
+    row1.appendChild(row1a);
+    row1.appendChild(row1b);
+    row1.appendChild(row1c);
+    
+    //row2
+    var row2= document.createElement("tr");
+    row2.style.width="200px";
+    row2.style.fontFamily="'Montserrat', sans-serif";
+    row2.style.fontWeight="bold";
+    var row2a= document.createElement("td");
+    row2a.textContent="DOWN AVENUE";
+    var row2b= document.createElement("td");
+    row2b.textContent="QUEENS WAY";
+    var row2c= document.createElement("td");
+    row2c.textContent="RANDELL CLOSE";
+
+    row2.appendChild(row2a);
+    row2.appendChild(row2b);
+    row2.appendChild(row2c);
+
+    //row3
+    var row3= document.createElement("tr");
+    row3.style.fontFamily="'Montserrat', sans-serif";
+    var row3a= document.createElement("td");
+    row3a.textContent="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation";
+    row3a.style.width="100px";
+    var row3b= document.createElement("td");
+    row3b.textContent="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation";
+    row3b.style.width="100px";
+    var row3c= document.createElement("td");
+    row3c.textContent="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation";
+    row3c.style.width="100px";
+
+    row3.appendChild(row3a);
+    row3.appendChild(row3b);
+    row3.appendChild(row3c);
+
+    //row4
+    var row4= document.createElement("tr");
+    row4.style.fontFamily="'Montserrat', sans-serif";
+    row4.style.fontWeight="bold";
+    var row4a= document.createElement("td");
+    row4a.style.padding="20px";
+    var row4abutton = document.createElement("button");
+    row4abutton.textContent="VIEW MORE";
+    row4abutton.style.marginLeft="30px";
+    row4abutton.style.border="2px solid rgba(7,23,36,255)";
+    var row4b= document.createElement("td");
+    var row4bbutton = document.createElement("button");
+    row4bbutton.textContent="VIEW MORE";
+    row4bbutton.style.marginLeft="30px";
+    row4bbutton.style.border="2px solid rgba(7,23,36,255)";
+    var row4c= document.createElement("td");
+    var row4cbutton = document.createElement("button");
+    row4cbutton.textContent="VIEW MORE";
+    row4cbutton.style.marginLeft="30px";
+    row4cbutton.style.border="2px solid rgba(7,23,36,255)";
+    
+    row4a.appendChild(row4abutton);
+    row4b.appendChild(row4bbutton);
+    row4c.appendChild(row4cbutton);
+    row4.appendChild(row4a);
+    row4.appendChild(row4b);
+    row4.appendChild(row4c);
+
+    f.appendChild(row1);
+    f.appendChild(row2);
+    f.appendChild(row3);
+    f.appendChild(row4);
+    
+    document.body.appendChild(f);
+
+    var g = document.createElement("div");
+    g.style.fontFamily="'Montserrat', sans-serif";
+    g.style.fontWeight="bold";
+    g.style.marginLeft="500px";
+    g.style.marginTop="35px";
+    var gtxt= document.createElement("h3");
+    gtxt.textContent="LATEST RENTAL PROPERTIES";
+    gtxt.color="rgba(7,23,36,255)";
+    g.appendChild(gtxt);
+    document.body.appendChild(g);
+
+    var i = document.createElement("div");
+    var iimg = document.createElement("img");
+    iimg.src= "tableimg1.jpg";
+    iimg.style.width="100px";
+    iimg.style.height="100px";
+    iimg.style.marginLeft="380px";
+    iimg.style.marginBottom="-85px";
+    i.appendChild(iimg);
+    document.body.appendChild(i);
+
+    var h = document.createElement("div");
+    h.style.backgroundColor="rgba(7,23,36,255)";
+    h.style.height="100px";
+    h.style.width="100%";
+    document.body.appendChild(h);
+
+    var j = document.createElement("div");
+    j.style.fontFamily="'Montserrat', sans-serif";
+    j.style.fontWeight="bold";
+    j.style.marginLeft="500px";
+    j.style.marginTop="-60px";
+    j.style.color="white";
+    var jtxt = document.createTextNode("CHASE AVENUE");
+    j.appendChild(jtxt);
+    document.body.appendChild(j);
+    
+    
+</script>
+
+</html>
